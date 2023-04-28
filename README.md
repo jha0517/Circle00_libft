@@ -15,7 +15,7 @@ The library contains functions for working with strings, memory, and linked list
 
 ## Authors
 
-FDF was created by Hyunah JUNG. If you have any questions or feedback, please feel free to contact me.
+libft was created by Hyunah JUNG. If you have any questions or feedback, please feel free to contact me.
 
 ## Acknowledgements
 
