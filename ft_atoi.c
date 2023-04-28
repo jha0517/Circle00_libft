@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "libft.h"
 
-static int	ft_atoi_base2(long int i, const char *str)
+static int	ft_atoi_base(long int i, const char *str)
 {
 	while (str[i] == '\t' || str[i] == ' ' || str[i] == '\v'
 		|| str[i] == '\n' || str[i] == '\f' || str[i] == '\r')
@@ -29,7 +29,7 @@ int	ft_atoi(const char *str)
 	sum = 0;
 	i = 0;
 	j = 1;
-	i = ft_atoi_base2(i, str);
+	i = ft_atoi_base(i, str);
 	if (str[i] == '-' || str[i] == '+')
 	{
 		if (str[i] == '-')
