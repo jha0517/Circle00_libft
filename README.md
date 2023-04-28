@@ -2,6 +2,8 @@
 
 This library is a collection of custom C functions that we will be using throughout the rest of our time at 42. The functions contained in this library will be used in many of the projects that we will be working on.
 
+![](image.png)
+
 ### How to use
 
 1. Clone this repository to your local machine.
